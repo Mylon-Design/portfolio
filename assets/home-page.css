@@ -1,0 +1,285 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+    background-color: #F8F7F9;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    } to {
+        opacity: 1;
+    }
+}
+
+header { /* menu fixo ao centro */
+    position: fixed;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1000;
+}
+
+header, nav{
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.menu {
+    padding: 2px 5px;
+    font: bold 10pt 'roboto', monospace;
+    color: black; 
+    background-color: white;
+}
+
+.menu:hover {
+    color: #FDC658;
+    text-decoration: none;
+    box-shadow: 2px 2px 0px black;
+    transition-duration: .2s;
+}
+
+section#logo-apresentation {
+    padding: 150px 0;
+}
+
+div#logo {
+    text-align: center;
+}
+
+section#sobremim >h1 {
+    text-align: center;
+    font: normal 24pt 'Krona one'
+}
+
+section#sobremim > div {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+div#sobremim-img-text {
+    align-items: center;
+    text-align: center;
+    left: 50%;
+    right: 50%;
+    background-color: #343234;
+    max-width: 1920px;
+    border-radius: 35px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.251);
+}
+
+div#sobremim-img-text > img {
+    align-items: center;
+    margin: auto;
+    padding: 10px;
+    max-height: 300px;
+    border-radius: 25px;
+}
+div#sobremim-img-text > p {
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    align-items: center;
+    margin: 15px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 20px;
+    max-width: 800px;
+    max-height: 300px;
+}
+
+div#works > h2 {
+    padding: 50px;
+    text-align: center;
+    color: #FDC658;
+    filter: drop-shadow(0px 3px 0px rgba(0, 0, 0, 0.214));
+    font: normal 24pt 'krona one';
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+div#works {
+    padding: 25px;
+    background-color: #79CDF4;
+}
+
+div#works > article {
+    text-align: center;
+    align-items: center;
+}
+
+div#works-child {
+    padding: 50px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.work-exp {
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    max-width: 310px;
+    min-height: 480px;
+    max-height: 800px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.work-exp > aside {
+    text-align: justify;
+}
+
+.work-exp > img {
+    border-radius: 5px;
+    max-width: 300px;
+}
+
+.work-exp :hover {
+    color: brown;
+    transition: .2s;    
+}
+
+section#experiencias {
+    color: white;
+    padding: 80px;
+    margin: auto;
+    background-color: #5FAD41;
+}
+
+section#experiencias > h2 {
+    text-align: center;
+    color: white;
+    font: normal 24pt 'krona one';
+    filter: drop-shadow(0px 3px 0px rgba(0, 0, 0, 0.214));
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.exp {
+    margin: auto;
+    display: block;
+    align-items: center;
+    max-width: 800px;
+    font-family: 'Poppins' , sans-serif;
+    margin-top: 25px;
+    padding: 15px;
+    gap: 25px;
+}
+
+.exp > h3 {
+    letter-spacing: 0.1ch; 
+}
+
+.exp > p {
+    font-style: italic;
+    font-weight: light;
+    color: rgb(218, 218, 218);
+}
+
+.exp-compnay-actual {
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.181);
+    border-radius: 10px;
+    padding: 15px 10px 15px 10px;
+    background-color: rgb(36, 36, 36);
+}
+
+.exp-compnay {
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.181);
+    border-radius: 10px;
+    padding: 15px 10px 15px 10px;
+    background-color: rgba(112, 112, 112, 0.433);
+}
+
+section#contact {
+    background-color: antiquewhite;
+    margin: auto;
+    padding: 50px;
+    text-align: center;
+}
+
+section#contact > h2 {
+    text-align: center;
+    color: darkslategrey;
+    font: normal 24pt 'krona one';
+    filter: drop-shadow(0px 3px 0px rgba(0, 0, 0, 0.214));
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+section#contact > div {
+    font-family: 'Poppins', sans-serif;
+    padding: 25px;
+    margin: auto;
+    margin-top: 25px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.159);
+    max-width: 600px;
+    text-align: center;
+}
+
+section#contact > picture {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+footer {
+    padding: 50px;
+    margin: auto;
+    text-align: center;
+    opacity: 100%;
+    font-style: italic;
+    color: white;
+    background-color: black;
+}
+
+.scrollTop {
+    outline: none;
+    border: 0;
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    z-index: 999;
+    cursor: pointer;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .4s ease;
+}
+
+.scrollTop.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.scrollTop > img {
+    width: 35px;
+    height: 35px;
+    align-items: center;    
+}

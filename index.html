@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maylon Evangelista</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&family=Anybody:ital,wght@0,100..900;1,100..900&family=Chau+Philomene+One:ital@0;1&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Junge&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sora:wght@100..800&family=VT323&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&family=Anybody:ital,wght@0,100..900;1,100..900&family=Chau+Philomene+One:ital@0;1&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Junge&family=Krona+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sora:wght@100..800&family=VT323&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/home-page.css">
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/.png">
+</head>
+
+<body>
+    <header> <!-- cabeçalho -->
+        <nav>
+            <button class="menu" onclick="scrollToSection('sobremim')">sobre mim</button>
+            <button class="menu" onclick="scrollToSection('works')">trabalhos</button>
+            <button class="menu" onclick="scrollToSection('experiencias')">experiências</button>
+            <button class="menu" onclick="scrollToSection('contact')">contato</button>
+        </nav>
+    </header>
+
+    <main>
+        <button class="scrollTop" onclick="backTop()">
+            <img src="assets/images/arrow-b-top.png" alt="">
+        </button>
+
+        <section id="logo-apresentation"> <!-- logo -->
+            <div id="logo">
+                <img src="assets/images/mylon-design-logo.png" alt="logotipo">
+            </div>
+            <br><br><br><br><br>
+        </section>
+
+        <section id="sobremim"> <!-- about me -->
+            <h1>SOBRE MIM</h1>
+            <div id="sobremim-img-text">
+                <img src="assets/images/profile-pic.png" alt="">
+                <p>Hello World! Meu nome é <strong>Maylon Evangelista</strong>, sou formado em Design Gráfico e busco
+                    cada vez mais me aprimorar em novas tecnologias, trabalho hoje como <strong>Designer Arte-Finalista
+                        e produtor gráfico</strong>. Recentemente tenho passado por uma transição em minha carreira,
+                    visando aprender mais sobre o desenvolvimento web front-end, tenho obtido um bom conhecimento em
+                    <strong>Javascript</strong> e a criar estruturas de websites utilizando as tecnologias
+                    <strong>Html:5 e Css3</strong>!</p>
+            </div>
+            <br><br><br><br>
+        </section>
+
+        <section> <!-- design works -->
+            <div id="works">
+                <h2>Meus trabalhos em design</h2>
+                <div id="works-child">
+                    <a href="https://www.behance.net/gallery/181787283/FINC-CO" rel="_black" target="external"
+                        style="text-decoration: none; color: black;">
+                        <div class="work-exp">
+                            <img src="assets/images/finc.jpg" alt="">
+                            <h2>FINC COMPANY</h2>
+                            <aside>Uma loja de produtos de moda de alta qualidade e estilo, que visa oferecer aos seus
+                                clientes uma experiência de compra excepcional. Oferecer produtos e peças de roupas da
+                                mais alta qualidade que se encontram dentro do atual “HYPE” do streetwear.</aside>
+                        </div>
+                    </a>
+                    <a href="https://www.behance.net/gallery/161822871/MURUA-ENTRETENIMENTO" rel="_black"
+                        target="external" style="text-decoration: none; color: black;">
+                        <div class="work-exp">
+                            <img src="assets/images/murua.png" alt="">
+                            <h2>MURUA PROJECT</h2>
+                            <aside> Uma marca que busca organizar e realizar entretenimento em eventos comemorativos
+                                sendo corporativos, sociais, acadêmicos ou culturais e privados.</aside>
+                        </div>
+                    </a>
+                    <a href="https://www.behance.net/gallery/182436559/BELTRAN-CAKES" rel="_black" target="external"
+                        style="text-decoration: none; color: black;">
+                        <div class="work-exp">
+                            <img src="assets/images/beltran-cakes.jpg" alt="">
+                            <h2>BELTRAN CAKES</h2>
+                            <aside>Com muita dedicação e conhecimento na confeitaria, Beltran Cakes busca uma forma de
+                                levar até as pessoas o toque e o sabor especial de suas receitas deliciosas,
+                                conquistando o paladar de seu público através de variedades deliciosas.</aside>
+                        </div>
+                    </a>
+                    <a href="https://www.behance.net/gallery/136354293/EVENTO-VETERANOS-DO-3-CTA-EXERCITO-BRASILEIRO"
+                        rel="_black" target="external" style="text-decoration: none; color: black;">
+                        <div class="work-exp">
+                            <img src="assets/images/veteranos.png" alt="">
+                            <h2>EXÉRCITO BRASILEIRO</h2>
+                            <aside>Criação de design aplicado em medalha de bronze. A medalha foi uma premiação feita e
+                                deidicada à presentear militares veteranos do 3º Centro de Telemática de Área do
+                                Exército Brasileiro.</aside>
+                        </div>
+                    </a>
+                    <a href="https://www.behance.net/gallery/143059707/PRINCE-OF-STREETS-SOCIAL-MEDIA" rel="_black"
+                        target="external" style="text-decoration: none; color: black;">
+                        <div class="work-exp">
+                            <img src="assets/images/prince.png" alt="">
+                            <h2>PRINCE OF STREETS</h2>
+                            <aside>Portfólio social media Prince Of Streets 2022 - Uma junção de alguma campanhas e
+                                imagens tratadas para vendas de sneakers de grandes marcas streetwear e do mundo do
+                                skateboarding.</aside>
+                        </div>
+                    </a>
+                    <a href="https://www.behance.net/gallery/130702167/O-BOLO-DA-LAUREL" rel="_black" target="external"
+                        style="text-decoration: none; color: black;">
+                        <div class="work-exp">
+                            <img src="assets/images/bolo-da-laurel.png" alt="">
+                            <h2>O BOLO DA LAUREL</h2>
+                            <aside>Criação de Identidade visual e logotipo que representasse a marca desde o nome à sua
+                                imagem, através do briefing que foi realizado, esta marca foi criada e inspirado na
+                                organização das Moças da IJCSUD, que é a organização auxiliar do sacerdócio.</aside>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="experiencias"> <!-- experiências -->
+            <h2>minhas experiências</h2>
+            <div class="exp">
+                <h3>Designer - Arte Finalista na Infoactive Scanbox</h3>
+                <p>Março 2023 - Hoje</p>
+                <br>
+                <div class="exp-compnay-actual">
+                    <aside>Com mais de 34 anos de experiência no mercado. A <a href="https://infoactive.com.br"
+                            rel="_blank" target="external" style="color: white;"><strong>Infoactive Scanbox</strong></a>
+                        que atua Desde 1989, é uma gráfica digital que atende as necessidades de impressão de seus
+                        clientes de forma ágil e eficiente. <br>Atuo hoje como Arte-Finalista, desenvolvo Layouts com
+                        designs ideais para a confecção de crachás de identificação, credenciais para eventos, rótulos
+                        de produtos, etiquetas, adesivos e comandas personalizadas. Todos com designs autênticos de
+                        acordo com Identidade visual de nossos clientes. <br><br> <strong>Habilidades /
+                            Tecnologias:</strong> Adobe Illustrator; Photoshop; Corel Draw; UI Design; <abbr
+                            title="Manuseio e desenvolvimento de artes em Plotter" style="text-decoration: none;">Man.
+                            de Plotter</abbr>; <abbr title="Sistema de Linkamento de dados"
+                            style="text-decoration: none;">BravaSoft</abbr>; Confecção de Impressos.</aside>
+                </div>
+            </div>
+            <div class="exp">
+                <h3>Designer Social Media na Prince Of Streets - Skateshop</h3>
+                <p>Fevereiro 2022 - Janeiro 2023</p>
+                <br>
+                <div class="exp-compnay">
+                    <aside>A <a href="https://princeofstreets.com.br" rel="_blank" target="external"
+                            style="color: white;"><strong>Prince of Streets</strong></a> é uma loja disseminadora do
+                        estilo de vida do Skate. Presente no mercado desde 2014, oferece variedades de produtos de
+                        qualidade das principais marcas do segmento: Vans, Adidas, Dc shoes, Grizzly, Dgk, Diamond,
+                        Freeday, Element Skateboard, Future Skateboard, Narina Skate, Sufgang, Nike Sb, Tesla Footwear,
+                        entre tantas outras. <br> Em minha experiência como designer social media tive como principal
+                        responsabilidade: a administração e criação de artes para as redes sociais da empresa,
+                        fotografia de produtos e tratamento das imagens, desenvolvimento de artes para campanhas
+                        promocionais e desenvolvimento de thumbnails para blog e site. <br><br> <strong>Habilidades /
+                            Tecnologias:</strong> Adobe Illustrator; Photoshop; Fotografia; Edição de vídeos - VN
+                        Studio; Instagram Marketing.</aside>
+                </div>
+            </div>
+            <div class="exp">
+                <h3>Auxiliar em <abbr title="Relações Públicas" style="text-decoration: none;">RP</abbr> & Designer -
+                    Arte Finalista no Exército Brasileiro</h3>
+                <p>Março 2021 - Janeiro 2022</p>
+                <br>
+                <div class="exp-compnay">
+                    <aside>O <a href="https://3cta.eb.mil.br" rel="_blank" target="external"
+                            style="color: white;"><strong>3º Centro de Telemática de Área (3º CTA)</strong></a> é uma
+                        Organização Militar de ciência e tecnologia, integrante do Sistema de Telemática do Exército
+                        (SisTEx) e está diretamente subordinado ao Centro Integrado de Telemática do Exército (CITEx) e
+                        vinculado ao <a href="https://cmse.eb.mil.br" rel="_black" target="external"
+                            style="color: white;"><strong>Comando Militar do Sudeste (CMSE)</strong></a>. <br> Em minha
+                        experiência militar dentro desta OM tive como principais responsabilidades: desenvolver arte de
+                        cartões e convites de aniversários de OMs e Comandantes; Fotografia de Eventos e formaturas
+                        militares; desdobramento e auxiliar na criação de premiações a militares, ex: placas em aço,
+                        canecas, estampas de camisetas e medalhas de bronze; Organização e criação de banners e
+                        conteúdos informativos para o website militar e intranet. <br><br> <strong>Habilidades /
+                            Tecnologias:</strong> Adobe Illustrator; Lightroom; Fotografia; Edição de vídeos - Vegas 14.
+                    </aside>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact"> <!-- recomendações -->
+            <h2>contato</h2>
+            <div>
+                <aside>Deixe sua marca se destacar com designs únicos e envolventes que contam a sua
+                    história.<br><br>Estou ansioso para atender a suas necessidades e lhe ajudar com o crescimento do
+                    seu projeto.<br><br>Entre em contato hoje mesmo para começarmos a trabalhar juntos.</aside>
+                <br>
+                <picture>
+                    <a href="mailto:contato.mylondesign@gmail.com" rel="_blank" target="external"><img
+                            src="assets/images/email-icon.png" alt=""></a> <!-- email -->
+                    <a href="https://www.linkedin.com/in/maylon-evangelista-721375230/" rel="_blank"
+                        target="external"><img src="assets/images/LinkedIn-icon.png" alt=""></a> <!-- linkedin -->
+                    <a href="https://www.instagram.com/mylondesign/" rel="_blank" target="external"><img
+                            src="assets/images/instagram-icon.png" alt=""></a> <!-- instagram -->
+                    <a href="https://github.com/Mylon-Design" rel="_blank" target="external"><img
+                            src="assets/images/github-icon.png" alt=""></a> <!-- github -->
+                    <a href="https://www.behance.net/mylondesign" rel="_blank" target="external"><img
+                            src="assets/images/Behance-icon.png" alt=""></a> <!-- behance -->
+                </picture>
+            </div>
+        </section>
+    </main>
+
+    <footer> <!-- rodapé -->
+        <p>&copy; 2024 Desenvolvido por: Mylon Design</p>
+    </footer>
+
+    <script src="assets/home.js"></script>
+</body>
+
+</html>
